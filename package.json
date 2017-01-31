@@ -2,9 +2,7 @@
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
     "build": "webpack",
-    "gh-pages-deploy": "gh-pages-deploy",
-    "git-check": "node check-git.js",
-    "deploy": "run-s -ns git-check gh-pages-deploy"
+    "deploy": "node deploy.js"
   },
   "gh-pages-deploy": {
     "prep": [
